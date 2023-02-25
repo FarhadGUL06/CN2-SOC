@@ -1,0 +1,138 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../segmente.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "seg_7_0": "",
+      "BinToBcd_0": "",
+      "seg_7_driver_0": ""
+    },
+    "components": {
+      "seg_7_0": {
+        "vlnv": "xilinx.com:module_ref:seg_7:1.0",
+        "xci_name": "design_1_seg_7_0_0",
+        "xci_path": "ip\\design_1_seg_7_0_0\\design_1_seg_7_0_0.xci",
+        "inst_hier_path": "seg_7_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seg_7",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "ap_rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "ap_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "out_signal": {
+            "direction": "O"
+          }
+        }
+      },
+      "BinToBcd_0": {
+        "vlnv": "xilinx.com:module_ref:BinToBcd:1.0",
+        "xci_name": "design_1_BinToBcd_0_0",
+        "xci_path": "ip\\design_1_BinToBcd_0_0\\design_1_BinToBcd_0_0.xci",
+        "inst_hier_path": "BinToBcd_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "BinToBcd",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "switch_input": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "bcd_output_digit_1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "bcd_output_digit_2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "seg_7_driver_0": {
+        "vlnv": "xilinx.com:module_ref:seg_7_driver:1.0",
+        "xci_name": "design_1_seg_7_driver_0_0",
+        "xci_path": "ip\\design_1_seg_7_driver_0_0\\design_1_seg_7_driver_0_0.xci",
+        "inst_hier_path": "seg_7_driver_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seg_7_driver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "ap_rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "ap_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "refresh_signal": {
+            "direction": "I"
+          },
+          "digit1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "digit2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "digit3": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "digit4": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg_7_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "seg_7_enable": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"seg_7_driver": {
+			"proto_instances": {
+			}
+		}
+	}
+}

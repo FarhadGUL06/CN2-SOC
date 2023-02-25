@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="seg_7.cpp" path="C:\Users\Decebal\Downloads\CN2_ca\segmente_7\seg_7\seg_7.cpp"/>
+    <originFiles name="seg_7.h" path="C:\Users\Decebal\Downloads\CN2_ca\segmente_7\seg_7\seg_7.h"/>
+  </source>
+  <testbench>
+    <originFiles name="seg_7-tb.cpp" path="C:\Users\Decebal\Downloads\CN2_ca\segmente_7\seg_7\seg_7-tb.cpp"/>
+    <originFiles name="seg_7-tb.h" path="C:\Users\Decebal\Downloads\CN2_ca\segmente_7\seg_7\seg_7-tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

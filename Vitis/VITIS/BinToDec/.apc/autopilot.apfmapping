@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="BinToBcd.h" path="D:\CN2\7_segmente\BinToDec\BinToBcd.h"/>
+    <originFiles name="BinToBcd.cpp" path="D:\CN2\7_segmente\BinToDec\BinToBcd.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="BinToBcd-tb.h" path="D:\CN2\7_segmente\BinToDec\BinToBcd-tb.h"/>
+    <originFiles name="BinToBcd-tb.cpp" path="D:\CN2\7_segmente\BinToDec\BinToBcd-tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

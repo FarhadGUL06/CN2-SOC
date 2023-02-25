@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "seg_7_driver.autotb.v"
+sv xil_defaultlib "seg_7_driver.v"
+sv xil_defaultlib "seg_7_driver_seg_7_code_V_ROM_AUTO_1R.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

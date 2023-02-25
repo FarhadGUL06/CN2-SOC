@@ -1,0 +1,6 @@
+   Build using "D:/Aplicatii/Vitis/Vitis_HLS/2022.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling BinToBcd.cpp_pre.cpp.tb.cpp
+   Compiling apatb_BinToBcd.cpp
+   Compiling BinToBcd-tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_BinToBcd_ir.ll
+   Generating cosim.tv.exe

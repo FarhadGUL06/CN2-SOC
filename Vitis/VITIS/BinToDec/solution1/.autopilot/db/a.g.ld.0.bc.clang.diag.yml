@@ -1,0 +1,428 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi32ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, true>::ssdm_int(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi9ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi9ELb1EEC2EDq9_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<9, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1513, Column: 337 }
+Function:        _ZdvILi8ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE3divERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<9, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1513, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 2052 }
+Function:        '_ZdvILi8ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE3divERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 2050 }
+Function:        '_ZdvILi8ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE3divERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1513, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi4ELb0EEC2ILi9ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi4ELb0EEC2EDq4_j
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi4EEC2ILi9EEERK6ap_intIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<4>::ap_uint<9>(ap_int<9> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi36ELb1EEC2ILi4ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb1EEC2EDq36_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi36ELb1EEC2ILi32ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb1EEC2EDq36_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi36ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi36ELb1EEC2EDq36_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<36, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1494, Column: 339 }
+Function:        _ZmlILi4ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4multERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1494, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1494, Column: 516 }
+Function:        _ZmlILi4ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4multERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1494, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1494, Column: 427 }
+Function:        _ZmlILi4ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4multERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1494, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 483 }
+Function:        '_ZmlILi4ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE4multERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 481 }
+Function:        '_ZmlILi4ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE4multERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1494, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi37ELb1EEC2ILi8ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi37ELb1EEC2EDq37_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi37ELb1EEC2ILi36ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi37ELb1EEC2EDq37_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi37ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi37ELb1EEC2EDq37_i
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<37, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1496, Column: 341 }
+Function:        _ZmiILi8ELb0ELi36ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5minusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1496, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1496, Column: 520 }
+Function:        _ZmiILi8ELb0ELi36ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5minusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<37, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1496, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1496, Column: 430 }
+Function:        _ZmiILi8ELb0ELi36ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5minusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1496, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi4ELb0EEC2ILi37ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi4ELb0EEC2EDq4_j
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi4EEC2ILi37EEERK6ap_intIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<4>::ap_uint<37>(ap_int<37> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 29, Column: 27 }
+Function:        _Z8BinToBcd7ap_uintILi8EERS_ILi4EES2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)'
+    DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 4, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 31, Column: 31 }
+Function:        _Z8BinToBcd7ap_uintILi8EERS_ILi4EES2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1496, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)'
+    DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 4, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 31, Column: 37 }
+Function:        _Z8BinToBcd7ap_uintILi8EERS_ILi4EES2_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)'
+    DebugLoc:        { File: 'D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)'
+    DebugLoc:        { File: BinToDec/BinToBcd.cpp, Line: 4, Column: 0 }
+  - String:          ''''
+...

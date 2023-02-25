@@ -1,0 +1,91 @@
+
+
+================================================================
+== Synthesis Summary Report of 'BinToBcd'
+================================================================
++ General Information: 
+    * Date:           Sun Jan 15 13:25:15 2023
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        BinToDec
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a100t-csg324-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |   Modules  | Issue|       | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |   & Loops  | Type | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ BinToBcd  |    II|  28.62|        0|   0.000|         -|        1|     -|       yes|     -|   -|  -|  77 (~0%)|    -|
+    +------------+------+-------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++--------------------+---------+----------+
+| Interface          | Mode    | Bitwidth |
++--------------------+---------+----------+
+| bcd_output_digit_1 | ap_none | 4        |
+| bcd_output_digit_2 | ap_none | 4        |
+| switch_input       | ap_none | 8        |
++--------------------+---------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++--------------------+-----------+-------------+
+| Argument           | Direction | Datatype    |
++--------------------+-----------+-------------+
+| switch_input       | in        | ap_uint<8>  |
+| bcd_output_digit_1 | out       | ap_uint<4>& |
+| bcd_output_digit_2 | out       | ap_uint<4>& |
++--------------------+-----------+-------------+
+
+* SW-to-HW Mapping
++--------------------+--------------------+---------+
+| Argument           | HW Interface       | HW Type |
++--------------------+--------------------+---------+
+| switch_input       | switch_input       | port    |
+| bcd_output_digit_1 | bcd_output_digit_1 | port    |
+| bcd_output_digit_2 | bcd_output_digit_2 | port    |
++--------------------+--------------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------+-----+--------+------------+-----+------+---------+
+| Name                     | DSP | Pragma | Variable   | Op  | Impl | Latency |
++--------------------------+-----+--------+------------+-----+------+---------+
+| + BinToBcd               | 0   |        |            |     |      |         |
+|   mul_8ns_10ns_17_1_1_U1 | -   |        | mul_ln1513 | mul | auto | 0       |
++--------------------------+-----+--------+------------+-----+------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+---------------------------------+----------------------------------------------------------+
+| Type      | Options                         | Location                                                 |
++-----------+---------------------------------+----------------------------------------------------------+
+| pipeline  |                                 | BinToDec/BinToBcd.cpp:7 in bintobcd                      |
+| interface | ap_ctrl_none port=return        | BinToDec/BinToBcd.cpp:10 in bintobcd, return             |
+| interface | ap_none port=switch_input       | BinToDec/BinToBcd.cpp:11 in bintobcd, switch_input       |
+| interface | ap_none port=bcd_output_digit_1 | BinToDec/BinToBcd.cpp:12 in bintobcd, bcd_output_digit_1 |
+| interface | ap_none port=bcd_output_digit_2 | BinToDec/BinToBcd.cpp:13 in bintobcd, bcd_output_digit_2 |
++-----------+---------------------------------+----------------------------------------------------------+
+
+

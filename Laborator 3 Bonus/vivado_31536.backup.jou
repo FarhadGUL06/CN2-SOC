@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Jan 10 21:58:58 2023
+# Process ID: 31536
+# Current directory: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21816 C:\Users\Farhad\OneDrive - Universitatea Politehnica Bucuresti\Desktop\SEMESTRUL 1\CN2\Laborator 3 Bonus\Laborator 3 final.xpr
+# Log file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus/vivado.log
+# Journal file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus\vivado.jou
+# Running On: DESKTOP-GGE783Q, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus/Laborator 3 final.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus/Laborator 3 final.srcs/sim_1/new/bubblesort.mem}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 Bonus/Laborator 3 final.srcs/sim_1/new/bubblesort.mem}}
+launch_simulation
+source test_riscv.tcl
+current_wave_config {Untitled 1}
+add_wave {{/test_riscv/procesor/Memory/address}} 
+current_wave_config {Untitled 1}
+add_wave {{/test_riscv/procesor/Memory/dataMemory}} 
+current_wave_config {Untitled 1}
+add_wave {{/test_riscv/procesor/instruction_decode/REGISTER_FILE_MODULE/Registers}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/test_riscv/procesor/instruction_decode/IMM_GEN_MODULE/out}} 
+relaunch_sim
+close_sim
+launch_simulation
+source test_riscv.tcl
+current_wave_config {Untitled 2}
+add_wave {{/test_riscv/procesor/instruction_decode/IMM_GEN_MODULE/out}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/test_riscv/procesor/HAZARD_DETECTION}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/opcode}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/MemRead}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/MemtoReg}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/MemWrite}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/RegWrite}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/Branch}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/ALUSrc}} {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE/ALUop}} 
+relaunch_sim
+close_sim
+launch_simulation
+source test_riscv.tcl
+current_wave_config {Untitled 3}
+add_wave {{/test_riscv/procesor/Memory/dataMemory}} 
+current_wave_config {Untitled 3}
+add_wave {{/test_riscv/procesor/instruction_decode/REGISTER_FILE_MODULE/Registers}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/test_riscv/procesor/HAZARD_DETECTION/rd}} {{/test_riscv/procesor/HAZARD_DETECTION/rs1}} {{/test_riscv/procesor/HAZARD_DETECTION/rs2}} {{/test_riscv/procesor/HAZARD_DETECTION/MemRead}} {{/test_riscv/procesor/HAZARD_DETECTION/PCwrite}} {{/test_riscv/procesor/HAZARD_DETECTION/IF_IDwrite}} {{/test_riscv/procesor/HAZARD_DETECTION/control_sel}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/test_riscv/procesor/instruction_decode/CONTROL_PATH_MODULE}} 
+relaunch_sim
+close_sim
+launch_simulation
+source test_riscv.tcl
+close_sim

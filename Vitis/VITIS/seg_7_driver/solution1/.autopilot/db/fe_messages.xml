@@ -1,0 +1,69 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/CN2/7_segmente/seg_7_driver/solution1/csynth.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=seg_7_driver" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/CN2/7_segmente/seg_7_driver/solution1/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=seg_7_driver" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=digit1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=digit2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=refresh_signal" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=seg_7_data" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="seg_7_driver/seg_7_driver.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="seg_7_driver" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=seg_7_enable" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function 'ssdm_int&lt;8, false&gt;::ssdm_int(unsigned char)' into 'ap_int_base&lt;8, false&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;8, false&gt;::ssdm_int(unsigned char)" Caller="ap_int_base&lt;8, false&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67" msg_body="Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base&lt;4, false&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi4ELb0EEC2EDq4_j" Caller="ap_int_base&lt;4, false&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:83:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:78:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:69:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:64:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:55:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:50:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:43:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="seg_7_driver/seg_7_driver.cpp:39:34" msg_body="Inlining function 'ap_int_base&lt;4, false&gt;::operator unsigned long long() const' into 'seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;4, false&gt;::operator unsigned long long() const" Caller="seg_7_driver(bool, ap_uint&lt;4&gt;, ap_uint&lt;4&gt;, ap_uint&lt;8&gt;&amp;, ap_uint&lt;4&gt;&amp;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

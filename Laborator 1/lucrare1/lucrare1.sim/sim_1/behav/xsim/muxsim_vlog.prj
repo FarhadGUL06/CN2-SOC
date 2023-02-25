@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lucrare1.srcs/sources_1/new/mux1.v" \
+"../../../../lucrare1.srcs/sources_1/new/nand1.v" \
+"../../../../lucrare1.srcs/sources_1/new/nand2.v" \
+"../../../../lucrare1.srcs/sources_1/new/nand3.v" \
+"../../../../lucrare1.srcs/sim_1/new/muxsim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

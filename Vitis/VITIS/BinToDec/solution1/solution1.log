@@ -1,0 +1,711 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.598 seconds; current allocated memory: 0.215 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.376 seconds; peak allocated memory: 683.574 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.014 seconds; current allocated memory: 0.230 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.653 seconds; peak allocated memory: 678.754 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.797 seconds; current allocated memory: 0.422 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.135 seconds; peak allocated memory: 676.863 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.335 seconds; current allocated memory: 0.297 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.946 seconds; peak allocated memory: 678.305 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.462 seconds; current allocated memory: 0.398 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.442 seconds; peak allocated memory: 677.051 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.607 seconds; current allocated memory: 0.293 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 14.849 seconds; peak allocated memory: 682.652 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./BinToDec/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.065 seconds; current allocated memory: 676.941 MB.
+INFO: [HLS 200-10] Analyzing design file 'BinToDec/BinToBcd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.078 seconds; current allocated memory: 678.059 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'BinToDec'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.15 seconds; current allocated memory: 1.203 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 25.57 seconds; peak allocated memory: 678.152 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.039 seconds; current allocated memory: 677.309 MB.
+INFO: [HLS 200-10] Analyzing design file 'BinToDec/BinToBcd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.261 seconds; current allocated memory: 678.805 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1093)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<8, false>::operator>=<32, true>(ap_int_base<32, true> const&) const' into 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1090)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:1006)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:1004)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)' into 'ap_uint<8>::ap_uint<33>(ap_int<33> const&)'
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator>><8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:558)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_uint<4>::ap_uint<8>(ap_uint<8> const&)'
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1497:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1497:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:3098)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:3096)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_uint<4>::ap_uint<32>(ap_int<32> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb1EEC2EDq9_i' into 'ap_int_base<9, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1513:337)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2052)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2050)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' into 'ap_uint<4>::ap_uint<9>(ap_int<9> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:481)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' into 'ap_uint<4>::ap_uint<37>(ap_int<37> const&)'
+INFO: [HLS 214-131] Inlining function 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:18:30)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:30:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:30:37)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:28:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:25:43)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator>><8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:24:43)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:21:45)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:19:46)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_17_1' is marked as complete unroll implied by the pipeline pragma (BinToDec/BinToBcd.cpp:17:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_17_1' (BinToDec/BinToBcd.cpp:17:22) in function 'BinToBcd' completely with a factor of 8 (BinToDec/BinToBcd.cpp:4:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.828 seconds; current allocated memory: 680.664 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 680.793 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 690.941 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 700.199 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.152 seconds; current allocated memory: 727.574 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 730.031 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'BinToBcd' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'BinToBcd'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, function 'BinToBcd'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.174 seconds; current allocated memory: 730.031 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.055 seconds; current allocated memory: 730.031 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/switch_input' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'BinToBcd' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_10ns_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'BinToBcd'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.114 seconds; current allocated memory: 730.625 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.324 seconds; current allocated memory: 735.141 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.234 seconds; current allocated memory: 737.723 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for BinToBcd.
+INFO: [VLOG 209-307] Generating Verilog RTL for BinToBcd.
+INFO: [HLS 200-789] **** Estimated Fmax: 211.42 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 10.455 seconds; current allocated memory: 60.855 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 24.273 seconds; peak allocated memory: 738.242 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 19.164 seconds; current allocated memory: 10.676 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 32.845 seconds; peak allocated memory: 688.520 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.041 seconds; current allocated memory: 677.461 MB.
+INFO: [HLS 200-10] Analyzing design file 'BinToDec/BinToBcd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.561 seconds; current allocated memory: 678.301 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1093)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<8, false>::operator>=<32, true>(ap_int_base<32, true> const&) const' into 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1788:1090)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi33ELb1EEC2EDq33_i' into 'ap_int_base<33, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1495:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:1006)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::plus operator+<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:1004)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)' into 'ap_uint<8>::ap_uint<33>(ap_int<33> const&)'
+INFO: [HLS 214-131] Inlining function 'ssdm_int<8, false>::ssdm_int(unsigned char)' into 'ap_int_base<8, false>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:228)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<8, false>::arg1 operator>><8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1669:558)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_uint<4>::ap_uint<8>(ap_uint<8> const&)'
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1497:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1497:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:3098)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::logic operator&<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:3096)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_uint<4>::ap_uint<32>(ap_int<32> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb1EEC2EDq9_i' into 'ap_int_base<9, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1513:337)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2052)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2050)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' into 'ap_uint<4>::ap_uint<9>(ap_int<9> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:481)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' into 'ap_uint<4>::ap_uint<37>(ap_int<37> const&)'
+INFO: [HLS 214-131] Inlining function 'bool operator>=<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:18:30)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:30:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:30:37)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:28:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::logic operator&<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:25:43)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator>><8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:24:43)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<8, false>::arg1 operator<<<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:21:45)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::plus operator+<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:19:46)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_17_1' is marked as complete unroll implied by the pipeline pragma (BinToDec/BinToBcd.cpp:17:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_17_1' (BinToDec/BinToBcd.cpp:17:22) in function 'BinToBcd' completely with a factor of 8 (BinToDec/BinToBcd.cpp:4:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.215 seconds; current allocated memory: 679.918 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 679.918 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 689.969 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 699.363 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.174 seconds; current allocated memory: 726.766 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 729.730 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'BinToBcd' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'BinToBcd'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'BinToBcd'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.169 seconds; current allocated memory: 729.730 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 729.730 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/switch_input' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'BinToBcd' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_10ns_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'BinToBcd'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 729.730 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.351 seconds; current allocated memory: 734.395 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.266 seconds; current allocated memory: 736.668 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for BinToBcd.
+INFO: [VLOG 209-307] Generating Verilog RTL for BinToBcd.
+INFO: [HLS 200-789] **** Estimated Fmax: 126.97 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 11.238 seconds; current allocated memory: 59.293 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 25.041 seconds; peak allocated memory: 736.816 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 17.979 seconds; current allocated memory: 11.391 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 31.754 seconds; peak allocated memory: 693.746 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.035 seconds; current allocated memory: 676.402 MB.
+INFO: [HLS 200-10] Analyzing design file 'BinToDec/BinToBcd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.52 seconds; current allocated memory: 678.023 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb1EEC2EDq9_i' into 'ap_int_base<9, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1513:337)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2052)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2050)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' into 'ap_uint<4>::ap_uint<9>(ap_int<9> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:481)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' into 'ap_uint<4>::ap_uint<37>(ap_int<37> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:29:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:31:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:31:37)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.195 seconds; current allocated memory: 679.312 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 679.312 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 689.645 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 698.965 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 726.492 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.048 seconds; current allocated memory: 729.316 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'BinToBcd' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'BinToBcd'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'BinToBcd'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 729.316 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.038 seconds; current allocated memory: 729.316 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/switch_input' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'BinToBcd' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_10ns_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'BinToBcd'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 729.316 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.308 seconds; current allocated memory: 733.691 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.244 seconds; current allocated memory: 736.629 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for BinToBcd.
+INFO: [VLOG 209-307] Generating Verilog RTL for BinToBcd.
+INFO: [HLS 200-789] **** Estimated Fmax: 126.97 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 10.919 seconds; current allocated memory: 60.359 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 24.761 seconds; peak allocated memory: 736.844 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 17.698 seconds; current allocated memory: 11.457 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 32.459 seconds; peak allocated memory: 688.367 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 17.379 seconds; current allocated memory: 11.055 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 31.142 seconds; peak allocated memory: 688.961 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 19.159 seconds; current allocated memory: 10.855 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 33.271 seconds; peak allocated memory: 691.461 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.033 seconds; current allocated memory: 677.723 MB.
+INFO: [HLS 200-10] Analyzing design file 'BinToDec/BinToBcd.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.735 seconds; current allocated memory: 678.605 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi9ELb1EEC2EDq9_i' into 'ap_int_base<9, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<9, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1513:337)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2052)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<32, true>::div operator/<8, false, 32, true>(ap_int_base<8, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:2050)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<9, true>(ap_int_base<9, true> const&)' into 'ap_uint<4>::ap_uint<9>(ap_int<9> const&)'
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi36ELb1EEC2EDq36_i' into 'ap_int_base<36, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:339)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:516)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<36, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1494:427)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:483)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<32, true>::mult operator*<4, false, 32, true>(ap_int_base<4, false> const&, ap_int_base<32, true> const&)' into 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1633:481)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi37ELb1EEC2EDq37_i' into 'ap_int_base<37, true>::ap_int_base(int)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:341)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base(int)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:520)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<37, true>::ap_int_base<36, true>(ap_int_base<36, true> const&)' into 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1496:430)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi4ELb0EEC2EDq4_j' into 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' (D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:185:106)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::ap_int_base<37, true>(ap_int_base<37, true> const&)' into 'ap_uint<4>::ap_uint<37>(ap_int<37> const&)'
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<($_0)32, true>::div operator/<8, false>(ap_int_base<8, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:29:27)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<8, false>::RType<36, true>::minus operator-<8, false, 36, true>(ap_int_base<8, false> const&, ap_int_base<36, true> const&)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:31:31)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<4, false>::RType<($_0)32, true>::mult operator*<4, false>(ap_int_base<4, false> const&, int)' into 'BinToBcd(ap_uint<8>, ap_uint<4>&, ap_uint<4>&)' (BinToDec/BinToBcd.cpp:31:37)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.425 seconds; current allocated memory: 679.504 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 679.504 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.132 seconds; current allocated memory: 689.527 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.109 seconds; current allocated memory: 699.293 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 726.922 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 729.719 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'BinToBcd' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'BinToBcd'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'BinToBcd'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.199 seconds; current allocated memory: 729.719 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.059 seconds; current allocated memory: 729.719 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'BinToBcd' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/switch_input' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'BinToBcd/bcd_output_digit_2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'bcd_output_digit_2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'BinToBcd' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_10ns_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'BinToBcd'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 729.719 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.388 seconds; current allocated memory: 734.527 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.307 seconds; current allocated memory: 737.199 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for BinToBcd.
+INFO: [VLOG 209-307] Generating Verilog RTL for BinToBcd.
+INFO: [HLS 200-789] **** Estimated Fmax: 126.97 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 11.806 seconds; current allocated memory: 59.629 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 25.516 seconds; peak allocated memory: 737.430 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-210] Design is translated to an combinational logic. II and Latency will be marked as all 0.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 16.283 seconds; current allocated memory: 11.730 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 30.014 seconds; peak allocated memory: 688.660 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.515 seconds; current allocated memory: 0.293 MB.
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 16.22 seconds; peak allocated memory: 683.336 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 50ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 50 -name default 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.344 seconds; current allocated memory: 0.383 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.027 seconds; peak allocated memory: 683.293 MB.

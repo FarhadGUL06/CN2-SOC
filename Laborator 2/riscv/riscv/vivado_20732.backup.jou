@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Nov 25 14:12:16 2022
+# Process ID: 20732
+# Current directory: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 2/riscv/riscv
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18284 C:\Users\Farhad\OneDrive - Universitatea Politehnica Bucuresti\Desktop\SEMESTRUL 1\CN2\Laborator 2\riscv\riscv\riscv.xpr
+# Log file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 2/riscv/riscv/vivado.log
+# Journal file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 2/riscv/riscv\vivado.jou
+# Running On: DESKTOP-GGE783Q, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 2/riscv/riscv/riscv.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_riscv_stud [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source test_riscv_stud.tcl
+close_sim
+launch_simulation
+source test_riscv_stud.tcl
+close_sim
+launch_simulation
+source test_riscv_stud.tcl
+close_sim
+launch_simulation
+source test_riscv_stud.tcl
+close_sim
+launch_simulation
+source test_riscv_stud.tcl
+close_sim
+launch_simulation
+source test_riscv_stud.tcl
+close_sim

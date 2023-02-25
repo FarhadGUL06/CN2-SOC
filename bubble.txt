@@ -1,0 +1,33 @@
+    # Bubble sort algorithm in RISC-V assembly
+    # n = number of elements in the array
+    # a = array to be sorted
+
+    # Initialize registers
+    addi x1, x0, 0       # Set x1 = 0 (index for outer loop)
+    addi x2, x0, 0       # Set x2 = 0 (index for inner loop)
+    addi x3, x0, 0       # Set x3 = 0 (temporary variable for swapping)
+
+    # Outer loop
+    outer_loop:
+        addi x2, x0, 0   # Reset inner loop index
+        addi x4, x0, n   # Set x4 = n (number of elements)
+        bge x1, x4, end  # If x1 >= x4, go to end
+
+    # Inner loop
+        inner_loop:
+            addi x5, x0, 1   # Set x5 = 1 (index for next element)
+            add x6, x1, x5   # Set x6 = x1 + x5 (index for current element)
+            lw x7, a, x6     # Load next element into x7
+            lw x8, a, x1     # Load current element into x8
+            bge x7, x8, next # If x7 >= x8, go to next
+            sw x8, a, x6     # Swap x8 and x7 by storing x8 in the address of x6
+            sw x7, a, x1     # Store x7 in the address of x1
+            j inner_loop     # Jump to inner_loop
+
+    # Next
+        addi x1, x1, 1   # Increment outer loop index
+        j outer_loop     # Jump to outer_loop
+
+    # End
+        add x0, x0, x0   # No return value
+end:

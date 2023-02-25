@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/BinToBcd.autotb.v,1673781950,systemVerilog,,,D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/fifo_para.vh,apatb_BinToBcd_top,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_20;floating_point_v7_1_15;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/BinToBcd.v,1673781915,systemVerilog,,,,BinToBcd,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_20;floating_point_v7_1_15;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/BinToBcd_mul_8ns_10ns_17_1_1.v,1673781915,systemVerilog,,,,BinToBcd_mul_8ns_10ns_17_1_1,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_20;floating_point_v7_1_15;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/csv_file_dump.svh,1673781950,verilog,,,,,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/dataflow_monitor.sv,1673781950,systemVerilog,D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/nodf_module_interface.svh,,D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/dump_file_agent.svh;D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/csv_file_dump.svh;D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/sample_agent.svh;D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/sample_manager.svh;D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/nodf_module_interface.svh;D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/nodf_module_monitor.svh,$unit_dataflow_monitor_sv;dataflow_monitor,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_20;floating_point_v7_1_15;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims_ver;xil_defaultlib;xpm,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/dump_file_agent.svh,1673781950,verilog,,,,,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/fifo_para.vh,1673781950,verilog,,,,,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/nodf_module_interface.svh,1673781950,verilog,,,,nodf_module_intf,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/nodf_module_monitor.svh,1673781950,verilog,,,,,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/sample_agent.svh,1673781950,verilog,,,,,,,,,,,,
+D:/CN2/7_segmente/BinToDec/solution1/sim/verilog/sample_manager.svh,1673781950,verilog,,,,,,,,,,,,

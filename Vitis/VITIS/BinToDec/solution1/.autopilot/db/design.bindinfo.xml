@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op mul" ID="" IMPL="auto" LATENCY="0" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8ns_10ns_17_1_1_U1" SOURCE="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:1513" VARIABLE="mul_ln1513" MODULE="BinToBcd" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op all" ID="" IMPL="tadder" LATENCY="0" OPTYPE="all" PRAGMA="" RTLNAME="sub_ln186_fu_131_p2" SOURCE="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:186" VARIABLE="sub_ln186" MODULE="BinToBcd" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op all" ID="" IMPL="tadder" LATENCY="0" OPTYPE="all" PRAGMA="" RTLNAME="bcd_output_digit_2" SOURCE="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:186" VARIABLE="add_ln186" MODULE="BinToBcd" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+</BindInfo>

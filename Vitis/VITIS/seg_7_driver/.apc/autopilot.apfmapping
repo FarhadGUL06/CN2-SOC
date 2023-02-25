@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="seg_7_driver.h" path="D:\CN2\7_segmente\seg_7_driver\seg_7_driver.h"/>
+    <originFiles name="seg_7_driver.cpp" path="D:\CN2\7_segmente\seg_7_driver\seg_7_driver.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="seg_7_driver-tb.h" path="D:\CN2\7_segmente\seg_7_driver\seg_7_driver-tb.h"/>
+    <originFiles name="seg_7_driver-tb.cpp" path="D:\CN2\7_segmente\seg_7_driver\seg_7_driver-tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

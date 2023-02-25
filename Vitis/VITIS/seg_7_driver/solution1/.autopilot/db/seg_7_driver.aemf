@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1673782617041">
+  <ports id="1" name="refresh_signal" type="PortType" originalName="refresh_signal" coreId="1953394531" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="digit1" type="PortType" originalName="digit1.V" coreId="1953394531" bitwidth="4">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="digit2" type="PortType" originalName="digit2.V" coreId="1953394531" bitwidth="4">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="seg_7_data" type="PortType" originalName="seg_7_data.V" coreId="1953394531" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="5" name="seg_7_enable" type="PortType" originalName="seg_7_enable.V" coreId="1953394531" bitwidth="4" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="65" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="67" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="70" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="71" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="72" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="75" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="78" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="86" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="87" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="88" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="93" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="94" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="95" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="96" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="97" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="98" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <edges id="101" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.13"/>
+  <edges id="103" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="104" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.14"/>
+  <edges id="105" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="106" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.15"/>
+  <edges id="107" source_obj="//@regions.0/@basic_blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.16"/>
+  <edges id="108" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.16"/>
+  <edges id="109" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.16"/>
+  <edges id="110" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.17"/>
+  <edges id="111" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.17"/>
+  <edges id="112" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.17"/>
+  <edges id="113" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.18"/>
+  <edges id="114" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.18"/>
+  <edges id="115" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.19"/>
+  <edges id="116" source_obj="//@regions.0/@basic_blocks.0/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.19"/>
+  <edges id="117" source_obj="//@regions.0/@basic_blocks.0/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.19"/>
+  <edges id="118" source_obj="//@regions.0/@basic_blocks.0/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.20"/>
+  <edges id="119" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="122" source_obj="//@regions.0/@basic_blocks.0/@node_objs.20" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.21"/>
+  <edges id="123" source_obj="//@regions.0/@basic_blocks.0/@node_objs.21" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.22"/>
+  <edges id="124" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.23"/>
+  <edges id="125" source_obj="//@regions.0/@basic_blocks.0/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.23"/>
+  <edges id="126" source_obj="//@regions.0/@basic_blocks.0/@node_objs.23" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.24"/>
+  <edges id="127" source_obj="//@regions.0/@basic_blocks.0/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.24"/>
+  <edges id="130" source_obj="//@regions.0/@basic_blocks.0/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.25"/>
+  <edges id="131" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.25"/>
+  <edges id="132" source_obj="//@regions.0/@basic_blocks.0/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.26"/>
+  <edges id="133" source_obj="//@regions.0/@basic_blocks.0/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.26"/>
+  <edges id="134" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.27"/>
+  <edges id="135" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.27"/>
+  <edges id="136" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.28"/>
+  <edges id="137" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.28"/>
+  <edges id="138" source_obj="//@regions.0/@basic_blocks.0/@node_objs.28" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.29"/>
+  <edges id="142" source_obj="//@regions.0/@basic_blocks.0/@node_objs.28" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.30"/>
+  <edges id="143" source_obj="//@regions.0/@basic_blocks.0/@node_objs.27" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.30"/>
+  <edges id="144" source_obj="//@regions.0/@basic_blocks.0/@node_objs.26" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.31"/>
+  <edges id="145" source_obj="//@regions.0/@basic_blocks.0/@node_objs.26" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.32"/>
+  <edges id="146" source_obj="//@regions.0/@basic_blocks.0/@node_objs.25" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.32"/>
+  <edges id="147" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.33"/>
+  <edges id="150" source_obj="//@regions.0/@basic_blocks.0/@node_objs.30" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.34"/>
+  <edges id="151" source_obj="//@regions.0/@basic_blocks.0/@node_objs.29" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.34"/>
+  <edges id="152" source_obj="//@regions.0/@basic_blocks.0/@node_objs.31" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.34"/>
+  <edges id="153" source_obj="//@regions.0/@basic_blocks.0/@node_objs.30" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.35"/>
+  <edges id="154" source_obj="//@regions.0/@basic_blocks.0/@node_objs.32" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.35"/>
+  <edges id="155" source_obj="//@regions.0/@basic_blocks.0/@node_objs.35" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.36"/>
+  <edges id="156" source_obj="//@regions.0/@basic_blocks.0/@node_objs.34" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.36"/>
+  <edges id="157" source_obj="//@regions.0/@basic_blocks.0/@node_objs.33" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.36"/>
+  <edges id="158" source_obj="//@regions.0/@basic_blocks.0/@node_objs.36" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.37"/>
+  <edges id="159" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.37"/>
+  <edges id="162" source_obj="//@regions.0/@basic_blocks.0/@node_objs.38" sink_obj="//@ports.3"/>
+  <edges id="163" source_obj="//@regions.0/@basic_blocks.0/@node_objs.24" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.38"/>
+  <edges id="166" source_obj="//@regions.0/@basic_blocks.0/@node_objs.39" sink_obj="//@ports.4"/>
+  <edges id="167" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.39"/>
+  <edges id="310" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.37"/>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="207" pipe_depth="2" RegionName="seg_7_driver">
+    <basic_blocks id="62" name="seg_7_driver" type="BlockType">
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="digit2_read" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="1633836916" contextFuncName="seg_7_driver" bitwidth="4" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>digit2</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="digit1_read" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="1986622052" contextFuncName="seg_7_driver" bitwidth="4" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>digit1</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="refresh_signal_read" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="1986622052" contextFuncName="seg_7_driver" bitwidth="1" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>refresh_signal</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="state_load" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="1684959075" contextFuncName="seg_7_driver" bitwidth="2" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="icmp_ln34" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="icmp_ln34_fu_113_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="seg_7_driver" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.93" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="icmp_ln34_1" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="icmp_ln34_1_fu_119_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="seg_7_driver" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.93" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="icmp_ln34_2" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="icmp_ln34_2_fu_125_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="seg_7_driver" bitwidth="1" opcode="icmp" m_display="0" m_delay="0.93" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="select_ln34" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln34_fu_274_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" nodeLabel="1.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="or_ln34" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln34_fu_281_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="33" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="select_ln34_1" lineNumber="34" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln34_1_fu_285_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" nodeLabel="1.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="seg_7_enable_local" lineNumber="34" originalName="seg_7_enable_local" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="seg_7_enable" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" nodeLabel="1.0" m_display="0" m_delay="0.99" m_topoIndex="35" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="34" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="and_ln11" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_fu_131_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="xor_ln11" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="xor_ln11_fu_137_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="xor" m_display="0" m_delay="0.97" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="and_ln11_1" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_1_fu_143_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="and_ln11_2" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_2_fu_149_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_topoIndex="11" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="and_ln11_3" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_3_fu_155_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="select_ln11" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_fu_161_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" m_display="0" m_topoIndex="13" m_clusterGroupNumber="3">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="select_ln11_1" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_1_fu_169_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="14" m_clusterGroupNumber="4">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="or_ln11" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_fu_301_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="select_ln11_2" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_2_fu_177_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="4" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="15" m_clusterGroupNumber="3">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="zext_ln11" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="zext_ln11_fu_185_p1" coreId="2983557872" contextFuncName="seg_7_driver" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="42" name="seg_7_code_V_addr" lineNumber="39" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="2985646160" contextFuncName="seg_7_driver" bitwidth="4" opcode="getelementptr" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="39" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="seg_7_code_V_load" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="no" opType="rom" coreId="95" contextFuncName="seg_7_driver" bitwidth="8" opcode="load" nodeLatency="1" m_display="0" m_delay="2.15" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="or_ln11_1" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_1_fu_305_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" nodeLabel="1.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>or</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="45" name="seg_7_data_local" lineNumber="11" originalName="seg_7_data_local" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="seg_7_data" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="8" opcode="select" nodeLabel="1.0" m_display="0" m_delay="1.04" m_topoIndex="38" m_clusterGroupNumber="5">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="or_ln11_2" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_2_fu_190_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" m_display="0" m_topoIndex="19" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="or_ln11_3" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_3_fu_196_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="and_ln11_4" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_4_fu_202_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_topoIndex="21" m_clusterGroupNumber="6">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="and_ln11_5" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="and_ln11_5_fu_208_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="select_ln11_4" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_4_fu_214_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="2" opcode="select" m_display="0" m_topoIndex="23" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="or_ln11_4" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_4_fu_222_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="24" m_clusterGroupNumber="6">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="zext_ln11_1" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="zext_ln11_1_fu_228_p1" coreId="1881171304" contextFuncName="seg_7_driver" bitwidth="2" opcode="zext" m_display="0" m_topoIndex="25" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="or_ln11_5" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_5_fu_232_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" m_display="0" m_topoIndex="26" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>or</dataInputObjs>
+        <dataOutputObjs>or</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="select_ln11_5" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_5_fu_238_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="2" opcode="select" m_display="0" m_topoIndex="27" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="select_ln11_6" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="select_ln11_6_fu_246_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="2" opcode="select" m_display="0" m_topoIndex="28" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="or_ln11_6" lineNumber="11" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="or_ln11_6_fu_254_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="seg_7_driver" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="29" m_clusterGroupNumber="2">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>or</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="next_state" lineNumber="11" originalName="next_state" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." rtlName="next_state_fu_260_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" contextFuncName="seg_7_driver" bitwidth="2" opcode="select" m_display="0" m_delay="0.99" m_topoIndex="30" m_clusterGroupNumber="7">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="11" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>or</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="state_write_ln92" lineNumber="92" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="84" contextFuncName="seg_7_driver" opcode="store" m_display="0" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="92" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>select</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="seg_7_data_write_ln93" lineNumber="93" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="29" contextFuncName="seg_7_driver" opcode="write" nodeLabel="1.0" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="93" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>seg_7_data</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="seg_7_enable_write_ln94" lineNumber="94" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="160" contextFuncName="seg_7_driver" opcode="write" nodeLabel="1.0" m_display="0" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="94" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>seg_7_enable</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="_ln96" lineNumber="96" fileName="seg_7_driver/seg_7_driver.cpp" fileDirectory=".." coreId="2989918736" contextFuncName="seg_7_driver" opcode="ret" nodeLabel="1.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="seg_7_driver/seg_7_driver.cpp" linenumber="96" fileDirectory="D:\CN2\7_segmente" functionName="seg_7_driver"/>
+      </node_objs>
+      <fileValidLineNumbers fileName="seg_7_driver/seg_7_driver.cpp">
+        <validLinenumbers>11</validLinenumbers>
+        <validLinenumbers>34</validLinenumbers>
+        <validLinenumbers>39</validLinenumbers>
+        <validLinenumbers>92</validLinenumbers>
+        <validLinenumbers>93</validLinenumbers>
+        <validLinenumbers>94</validLinenumbers>
+        <validLinenumbers>96</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <regnodes realName="icmp_ln34_2_reg_329">
+    <nodeIds>27</nodeIds>
+  </regnodes>
+  <regnodes realName="and_ln11_reg_336">
+    <nodeIds>32</nodeIds>
+  </regnodes>
+  <regnodes realName="and_ln11_1_reg_341">
+    <nodeIds>34</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln34_1_reg_324">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln34_reg_319">
+    <nodeIds>25</nodeIds>
+  </regnodes>
+  <regnodes realName="seg_7_code_V_addr_reg_346">
+    <nodeIds>42</nodeIds>
+  </regnodes>
+  <expressionNodes realName="select_ln11_2_fu_177">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_3_fu_196">
+    <nodeIds>47</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln34_fu_274">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln11_4_fu_214">
+    <nodeIds>50</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln11_5_fu_238">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln34_fu_281">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_2_fu_190">
+    <nodeIds>46</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln11_fu_185">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="next_state_fu_260">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln34_1_fu_119">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln11_1_fu_228">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_fu_131">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_3_fu_155">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_6_fu_254">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="seg_7_data_local_fu_310">
+    <nodeIds>45</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln34_fu_113">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_5_fu_232">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="seg_7_enable_local_fu_292">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln11_fu_137">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_fu_301">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln11_1_fu_169">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln34_1_fu_285">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln11_6_fu_246">
+    <nodeIds>55</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="seg_7_code_V_addr_gep_fu_96">
+    <nodeIds>42</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_2_fu_149">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln34_2_fu_125">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_5_fu_208">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln11_fu_161">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_1_fu_143">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_1_fu_305">
+    <nodeIds>44</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln11_4_fu_222">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln11_4_fu_202">
+    <nodeIds>48</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="digit1_read_read_fu_70">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioNodes realName="digit2_read_read_fu_64">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioNodes realName="refresh_signal_read_read_fu_76">
+    <nodeIds>23</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln93_write_fu_82">
+    <nodeIds>59</nodeIds>
+  </ioNodes>
+  <ioNodes realName="state_load_load_fu_109">
+    <nodeIds>24</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln92_store_fu_268">
+    <nodeIds>58</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln94_write_fu_89">
+    <nodeIds>60</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="seg_7_code_V">
+    <nodeIds>43</nodeIds>
+  </memoryPorts>
+  <ioPorts name="digit1">
+    <contents name="read">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="digit2">
+    <contents name="read">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="refresh_signal">
+    <contents name="read">
+      <nodeIds>23</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="seg_7_data">
+    <contents name="write">
+      <nodeIds>59</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="seg_7_enable">
+    <contents name="write">
+      <nodeIds>60</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="2" latency="2"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="2"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="45" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="seg_7_driver" mII="1" mDepth="2" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1" mMaxLatency="1">
+      <basicBlocks>62</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

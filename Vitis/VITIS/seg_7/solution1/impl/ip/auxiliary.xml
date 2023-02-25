@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="seg_7" xd:componentRef="seg_7" xd:initiationInterval="1" xd:clockPeriod="10" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="out_signal" xd:originalName="out_signal" xd:direction="out" xd:interfaceRef="out_signal" xd:busTypeRef="register" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="0" xd:worst-case="0" xd:average-case="0"/>
+  <xd:resourceEstimates xd:LUT="89" xd:FF="33" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

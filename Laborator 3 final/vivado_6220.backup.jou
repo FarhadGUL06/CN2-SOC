@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Jan 10 21:39:57 2023
+# Process ID: 6220
+# Current directory: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23364 C:\Users\Farhad\OneDrive - Universitatea Politehnica Bucuresti\Desktop\SEMESTRUL 1\CN2\Laborator 3 final\Laborator 3 final.xpr
+# Log file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 final/vivado.log
+# Journal file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 final\vivado.jou
+# Running On: DESKTOP-GGE783Q, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 3 final/Laborator 3 final.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source test_riscv.tcl
+close_sim
+launch_simulation
+source test_riscv.tcl
+close_sim
+launch_simulation
+source test_riscv.tcl
+close_sim
+launch_simulation
+source test_riscv.tcl
+close_sim
+launch_simulation
+source test_riscv.tcl
+close_sim
+launch_simulation
+source test_riscv.tcl
+current_wave_config {Untitled 6}
+add_wave {{/test_riscv/procesor/Memory/dataMemory}} 
+current_wave_config {Untitled 6}
+add_wave {{/test_riscv/procesor/instruction_decode/REGISTER_FILE_MODULE/Registers}} 
+relaunch_sim
+close_sim

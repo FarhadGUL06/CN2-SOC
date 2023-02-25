@@ -1,0 +1,6 @@
+   Build using "D:/Aplicatii/Vitis/Vitis_HLS/2022.2/tps/win64/msys64/mingw64/bin/g++"
+   Compiling seg_7_driver.cpp_pre.cpp.tb.cpp
+   Compiling apatb_seg_7_driver.cpp
+   Compiling seg_7_driver-tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_seg_7_driver_ir.ll
+   Generating cosim.tv.exe

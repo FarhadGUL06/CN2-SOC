@@ -1,0 +1,250 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x28C571789BFB4A1C",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../segmente.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "seg_7_driver_0": "",
+      "BinToBcd_0": "",
+      "seg_7_0": ""
+    },
+    "ports": {
+      "switch_input_0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "seg_7_data_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "seg_7_enable_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "ap_clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "ap_rst_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_2_ap_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "ap_rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "seg_7_driver_0": {
+        "vlnv": "xilinx.com:module_ref:seg_7_driver:1.0",
+        "xci_name": "design_2_seg_7_driver_0_0",
+        "xci_path": "ip\\design_2_seg_7_driver_0_0\\design_2_seg_7_driver_0_0.xci",
+        "inst_hier_path": "seg_7_driver_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seg_7_driver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "ap_rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_2_ap_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "ap_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "refresh_signal": {
+            "direction": "I"
+          },
+          "digit1": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "digit2": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "seg_7_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "seg_7_enable": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "BinToBcd_0": {
+        "vlnv": "xilinx.com:module_ref:BinToBcd:1.0",
+        "xci_name": "design_2_BinToBcd_0_0",
+        "xci_path": "ip\\design_2_BinToBcd_0_0\\design_2_BinToBcd_0_0.xci",
+        "inst_hier_path": "BinToBcd_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "BinToBcd",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "switch_input": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "bcd_output_digit_1": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "bcd_output_digit_2": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "seg_7_0": {
+        "vlnv": "xilinx.com:module_ref:seg_7:1.0",
+        "xci_name": "design_2_seg_7_0_0",
+        "xci_path": "ip\\design_2_seg_7_0_0\\design_2_seg_7_0_0.xci",
+        "inst_hier_path": "seg_7_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seg_7",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ap_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "ap_rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_2_ap_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "ap_rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "out_signal": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "BinToBcd_0_bcd_output_digit_1": {
+        "ports": [
+          "BinToBcd_0/bcd_output_digit_1",
+          "seg_7_driver_0/digit2"
+        ]
+      },
+      "BinToBcd_0_bcd_output_digit_2": {
+        "ports": [
+          "BinToBcd_0/bcd_output_digit_2",
+          "seg_7_driver_0/digit1"
+        ]
+      },
+      "ap_clk_0_1": {
+        "ports": [
+          "ap_clk_0",
+          "seg_7_driver_0/ap_clk",
+          "seg_7_0/ap_clk"
+        ]
+      },
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst_0",
+          "seg_7_driver_0/ap_rst",
+          "seg_7_0/ap_rst"
+        ]
+      },
+      "seg_7_0_out_signal": {
+        "ports": [
+          "seg_7_0/out_signal",
+          "seg_7_driver_0/refresh_signal"
+        ]
+      },
+      "seg_7_driver_0_seg_7_data": {
+        "ports": [
+          "seg_7_driver_0/seg_7_data",
+          "seg_7_data_0"
+        ]
+      },
+      "seg_7_driver_0_seg_7_enable": {
+        "ports": [
+          "seg_7_driver_0/seg_7_enable",
+          "seg_7_enable_0"
+        ]
+      },
+      "switch_input_0_1": {
+        "ports": [
+          "switch_input_0",
+          "BinToBcd_0/switch_input"
+        ]
+      }
+    }
+  }
+}

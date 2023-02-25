@@ -1,0 +1,49 @@
+---
+MainSourceFile:  'D:/CN2/7_segmente/BinToDec/solution1/.autopilot/db/BinToBcd.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        'D:\Aplicatii\Vitis\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'D:\CN2\7_segmente\BinToDec\solution1\.autopilot\db\BinToBcd.pp.0.cpp'
+        Offset:          52037
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'D:\Aplicatii\Vitis\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\CN2\7_segmente\BinToDec\solution1\.autopilot\db\BinToBcd.pp.0.cpp'
+        Offset:          259305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'D:\Aplicatii\Vitis\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\CN2\7_segmente\BinToDec\solution1\.autopilot\db\BinToBcd.pp.0.cpp'
+        Offset:          259744
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'D:\Aplicatii\Vitis\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\CN2\7_segmente\BinToDec\solution1\.autopilot\db\BinToBcd.pp.0.cpp'
+        Offset:          260184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        'D:\Aplicatii\Vitis\Vitis_HLS\2022.2\common\technology\autopilot\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\CN2\7_segmente\BinToDec\solution1\.autopilot\db\BinToBcd.pp.0.cpp'
+        Offset:          522224
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+...

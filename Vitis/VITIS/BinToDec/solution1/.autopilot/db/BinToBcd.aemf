@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1673781915928">
+  <ports id="1" name="switch_input" type="PortType" originalName="switch_input" coreId="1953394531" bitwidth="8">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="bcd_output_digit_1" type="PortType" originalName="bcd_output_digit_1.V" coreId="1953394531" bitwidth="4" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="3" name="bcd_output_digit_2" type="PortType" originalName="bcd_output_digit_2.V" coreId="1953394531" bitwidth="4" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="30" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="31" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="32" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="37" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="44" source_obj="//@regions.0/@basic_blocks.0/@node_objs.4" sink_obj="//@ports.1"/>
+  <edges id="45" source_obj="//@regions.0/@basic_blocks.0/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.4"/>
+  <edges id="46" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.5"/>
+  <edges id="49" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.6"/>
+  <edges id="53" source_obj="//@regions.0/@basic_blocks.0/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.7"/>
+  <edges id="58" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.8"/>
+  <edges id="64" source_obj="//@regions.0/@basic_blocks.0/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.9"/>
+  <edges id="67" source_obj="//@regions.0/@basic_blocks.0/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="68" source_obj="//@regions.0/@basic_blocks.0/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.10"/>
+  <edges id="69" source_obj="//@regions.0/@basic_blocks.0/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="70" source_obj="//@regions.0/@basic_blocks.0/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.11"/>
+  <edges id="72" source_obj="//@regions.0/@basic_blocks.0/@node_objs.12" sink_obj="//@ports.2"/>
+  <edges id="73" source_obj="//@regions.0/@basic_blocks.0/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.12"/>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="77" pipe_depth="1" RegionName="BinToBcd">
+    <basic_blocks id="27" name="BinToBcd" type="BlockType">
+      <node_objs xsi:type="cdfg:CdfgNode" id="13" name="switch_input_read" lineNumber="4" fileName="BinToDec/BinToBcd.cpp" fileDirectory=".." coreId="0" contextFuncName="BinToBcd" bitwidth="8" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="BinToDec/BinToBcd.cpp" linenumber="4" fileDirectory="D:\CN2\7_segmente" functionName="BinToBcd"/>
+        <dataInputObjs>switch_input</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="zext_ln1513" lineNumber="1513" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="mul_ln1513_fu_76_p00" coreId="0" contextFuncName="operator_div_8_false_32_true" bitwidth="17" opcode="zext" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="1513" fileDirectory="D:\CN2\7_segmente" functionName="operator/&amp;lt;8, false, 32, true&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>mul</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="mul_ln1513" lineNumber="1513" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="mul_8ns_10ns_17_1_1_U1" coreName="Multiplier" implIndex="auto" control="no" opType="mul" coreId="3" contextFuncName="operator_div_8_false_32_true" bitwidth="17" opcode="mul" m_display="0" m_delay="4.73" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="1513" fileDirectory="D:\CN2\7_segmente" functionName="operator/&amp;lt;8, false, 32, true&amp;gt;"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="tens_V" lineNumber="186" originalName="tens.V" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="bcd_output_digit_1" coreId="4294967295" contextFuncName="ap_int_base_9_true_s" bitwidth="4" opcode="partselect" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;9, true&amp;gt;"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="bcd_output_digit_1_write_ln30" lineNumber="30" fileName="BinToDec/BinToBcd.cpp" fileDirectory=".." coreId="0" contextFuncName="BinToBcd" opcode="write" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="BinToDec/BinToBcd.cpp" linenumber="30" fileDirectory="D:\CN2\7_segmente" functionName="BinToBcd"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>bcd_output_digit_1</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="trunc_ln186" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="trunc_ln186_fu_93_p1" coreId="0" contextFuncName="ap_int_base_37_true_s" bitwidth="4" opcode="trunc" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="tmp" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="tmp_fu_97_p3" coreId="4294967295" contextFuncName="ap_int_base_37_true_s" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="shl_ln" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="shl_ln_fu_105_p3" coreId="0" contextFuncName="ap_int_base_37_true_s" bitwidth="4" opcode="bitconcatenate" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="tmp_1" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="tmp_1_fu_113_p4" coreId="0" contextFuncName="ap_int_base_37_true_s" bitwidth="3" opcode="partselect" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>mul</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="shl_ln186_1" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="shl_ln186_1_fu_123_p3" coreId="0" contextFuncName="ap_int_base_37_true_s" bitwidth="4" opcode="bitconcatenate" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>sub</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="sub_ln186" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="sub_ln186_fu_131_p2" coreName="TAddSub" implIndex="tadder" control="no" opType="all" coreId="10" contextFuncName="ap_int_base_37_true_s" bitwidth="4" opcode="sub" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="add_ln186" lineNumber="186" fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" fileDirectory=".." rtlName="bcd_output_digit_2" coreName="TAddSub" implIndex="tadder" control="no" opType="all" coreId="10" contextFuncName="ap_int_base_37_true_s" bitwidth="4" opcode="add" m_display="0" m_delay="3.14" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" linenumber="186" fileDirectory="D:\CN2\7_segmente" functionName="ap_int_base&amp;lt;37, true&amp;gt;"/>
+        <dataInputObjs>sub</dataInputObjs>
+        <dataInputObjs>trunc</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="bcd_output_digit_2_write_ln31" lineNumber="31" fileName="BinToDec/BinToBcd.cpp" fileDirectory=".." coreId="0" contextFuncName="BinToBcd" opcode="write" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="BinToDec/BinToBcd.cpp" linenumber="31" fileDirectory="D:\CN2\7_segmente" functionName="BinToBcd"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>bcd_output_digit_2</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="_ln32" lineNumber="32" fileName="BinToDec/BinToBcd.cpp" fileDirectory=".." coreId="26" contextFuncName="BinToBcd" opcode="ret" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="BinToDec/BinToBcd.cpp" linenumber="32" fileDirectory="D:\CN2\7_segmente" functionName="BinToBcd"/>
+      </node_objs>
+      <fileValidLineNumbers fileName="BinToDec/BinToBcd.cpp">
+        <validLinenumbers>4</validLinenumbers>
+        <validLinenumbers>30</validLinenumbers>
+        <validLinenumbers>31</validLinenumbers>
+        <validLinenumbers>32</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="D:/Aplicatii/Vitis/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h">
+        <validLinenumbers>1513</validLinenumbers>
+        <validLinenumbers>186</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="add_ln186_fu_137">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_1_fu_113">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="shl_ln186_1_fu_123">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="shl_ln_fu_105">
+    <nodeIds>20</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tens_V_fu_82">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="mul_ln1513_fu_76">
+    <nodeIds>15</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_97">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln186_fu_93">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln186_fu_131">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln1513_fu_72">
+    <nodeIds>14</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="write_ln30_write_fu_58">
+    <nodeIds>17</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln31_write_fu_65">
+    <nodeIds>25</nodeIds>
+  </ioNodes>
+  <ioNodes realName="switch_input_read_read_fu_52">
+    <nodeIds>13</nodeIds>
+  </ioNodes>
+  <ioPorts name="bcd_output_digit_1">
+    <contents name="write">
+      <nodeIds>17</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="bcd_output_digit_2">
+    <contents name="write">
+      <nodeIds>25</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="switch_input">
+    <contents name="read">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="BinToBcd" mII="1" mDepth="1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>27</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

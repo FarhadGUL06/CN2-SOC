@@ -1,0 +1,6 @@
+sv work "glbl.v"
+sv xil_defaultlib "BinToBcd.autotb.v"
+sv xil_defaultlib "BinToBcd.v"
+sv xil_defaultlib "BinToBcd_mul_8ns_10ns_17_1_1.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

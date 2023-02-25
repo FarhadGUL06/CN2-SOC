@@ -1,0 +1,4 @@
+<pragmas>
+<pragma file="seg_7/seg_7.cpp" line="8" pragmaType="interface" parentfunction="seg_7" mode="ap_none" port="out_signal" name="" register="0"/>
+<pragma file="seg_7/seg_7.cpp" line="9" pragmaType="interface" parentfunction="seg_7" mode="ap_ctrl_none" port="return" name=""/>
+</pragmas>

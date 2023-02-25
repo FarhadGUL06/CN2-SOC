@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-542,-312",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_pauza_0 -pg 1 -lvl 0 -x -330 -y -70 -defaultsOSRD
+preplace port port-id_reset_0 -pg 1 -lvl 0 -x -330 -y -90 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 3 -x 450 -y -230 -defaultsOSRD
+preplace inst bin2bcd_1 -pg 1 -lvl 3 -x 450 -y -60 -defaultsOSRD
+preplace inst dizivor_ceas_0 -pg 1 -lvl 3 -x 450 -y 80 -defaultsOSRD
+preplace inst afisare_7seg_0 -pg 1 -lvl 4 -x 720 -y -50 -defaultsOSRD
+preplace inst numarator_0 -pg 1 -lvl 1 -x -160 -y -90 -defaultsOSRD
+preplace inst numarator_1 -pg 1 -lvl 2 -x 160 -y 60 -defaultsOSRD
+preplace netloc numarator_0_carry_out 1 1 1 -20 -100n
+preplace netloc numarator_0_valoare_bin 1 1 2 0 -230 NJ
+preplace netloc numarator_1_valoare_bin 1 2 1 300 -60n
+preplace netloc pauza_0_1 1 0 2 -310 80 N
+preplace netloc reset_0_1 1 0 2 -310 -170 -10
+levelinfo -pg 1 -330 -160 160 450 720 850
+pagesize -pg 1 -db -bbox -sgen -440 -300 850 160
+"
+}
+0

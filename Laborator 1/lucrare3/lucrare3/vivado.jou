@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Oct 28 14:05:48 2022
+# Process ID: 9796
+# Current directory: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 1/lucrare3/lucrare3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22012 C:\Users\Farhad\OneDrive - Universitatea Politehnica Bucuresti\Desktop\SEMESTRUL 1\CN2\Laborator 1\lucrare3\lucrare3\lucrare3.xpr
+# Log file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 1/lucrare3/lucrare3/vivado.log
+# Journal file: C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 1/lucrare3/lucrare3\vivado.jou
+# Running On: DESKTOP-GGE783Q, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16542 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Farhad/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SEMESTRUL 1/CN2/Laborator 1/lucrare3/lucrare3/lucrare3.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source simulare.tcl
+close_sim
